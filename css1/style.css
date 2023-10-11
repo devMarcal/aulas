@@ -1,0 +1,16 @@
+.titulo-externo {
+    background-color: darkcyan;
+}
+
+.nome-cor {
+    color: darkorange;
+}
+.hexadecimal {
+    color: #555557;
+}
+.rgb {
+    color: rgb(113, 14, 233)
+}
+.rgba {
+    color: rgba(113, 14, 233, 0.4);
+}
