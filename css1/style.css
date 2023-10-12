@@ -14,3 +14,12 @@
 .rgba {
     color: rgba(113, 14, 233, 0.4);
 }
+
+.margin {
+    width: 400px;
+    margin: 30px 20px 15px 25px;
+}
+
+.padding {
+
+}
