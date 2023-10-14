@@ -2,6 +2,7 @@
     background-color: darkcyan;
 }
 
+/* CORES NO CSS */
 .nome-cor {
     color: darkorange;
 }
@@ -15,11 +16,28 @@
     color: rgba(113, 14, 233, 0.4);
 }
 
+/* MARGIN, PADDING E BORDER */
 .margin {
     width: 400px;
     margin: 30px 20px 15px 25px;
+    background-color: #dfcece;
 }
-
 .padding {
-
+    width: 400px;
+    /* padding-top: 35px;
+    padding-right: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px; */
+    /* O padding segue o sentido top-> right-> bottom-> left */
+    padding: 35px 30px 40px 30px;
+    background-color: #dfcece;
+}
+.border {
+    width: 400px;
+    margin: 30px 15px;
+    padding: 20px;
+    /* border-style: solid;
+    border-width: 10px;
+    border-color: #df3e3e; */
+    border: solid 10px #df3e3e;
 }
