@@ -3,6 +3,7 @@
 }
 
 /* CORES NO CSS */
+
 .nome-cor {
     color: darkorange;
 }
@@ -17,6 +18,7 @@
 }
 
 /* MARGIN, PADDING E BORDER */
+
 .margin {
     width: 400px;
     margin: 30px 20px 15px 25px;
@@ -40,4 +42,68 @@
     border-width: 10px;
     border-color: #df3e3e; */
     border: solid 10px #df3e3e;
+}
+
+/* IDs e Classes */
+
+.classe-exemplo {
+    background-color: burlywood;
+}
+.teste {
+    border: solid 5px #d05df0;
+}
+#id-exemplo {
+    background-color: darkgoldenrod
+}
+
+/* DIV E SPAN */
+
+.exemplo-div {
+    width: 400px;
+    background-color: darkseagreen;
+}
+.exemplo-div span {
+    color: #df3e3e;
+    background-color: black;
+}
+
+/* UNIDADES DE MEDIDAS RELATIVAS E ABSOLUTAS */
+
+.relacao {
+    background-color: indianred;
+    width: 50%;
+    font-size: 2rem;
+}
+.pai {
+    background-color: #d05df0;
+    width: 50%;
+    font-size: 2em;
+}
+.filho {
+background-color: rgb(148, 80, 165);
+width: 50%;
+font-size: 2rem;
+}
+
+.pixel {
+    background-color: #dfcece;
+    width: 200px;
+    height: 50mm;
+}
+
+/* BORDER-BOX: BOX-SIZING */
+
+.border-box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: solid 10px crimson;
+    margin: 5px;
+}
+.com {
+    background-color: lightgreen;
+    box-sizing: border-box;
+}
+.sem {
+    background-color: skyblue;
 }
