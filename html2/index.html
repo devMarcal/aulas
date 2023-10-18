@@ -8,7 +8,63 @@
 <body>
     <h1>HTML Intermediário</h1>
 
-    <h2>Input e Input Text</h2>
+    <h2>Input text</h2>
+
+    <input type="text" name="nome" placeholder="Digite seu nome" id="nome">
+    <input type="text" name="email" id="email" placeholder="Digite seu e-mail" value="email@example.com"> <br><br>
+
+    <h2>Input number, password e submit</h2>
     
+    <label for="numero">Digite um valor</label>
+    <input type="number" name="number" id="numero"> <br><br>
+    
+    <label for="senha">Digite sua senha</label>
+    <input type="password" name="password" id="senha"> <br><br>
+    
+    <input type="submit" name="submit" id="enviar"> <br><br>
+
+    <h2>Checkbox e Radio</h2>
+
+    <!-- CHECKBOX -->
+    <h3>Cores</h3>
+    <label for="red">Vermelho</label>
+    <input type="checkbox" name="cores" id="red"> <br>
+
+    <label for="blue">Azul</label>
+    <input type="checkbox" name="cores" id="blue" checked> <br>
+
+    <label for="green">Verde</label>
+    <input type="checkbox" name="cores" id="green"> <br>
+
+    <label for="white">Branco</label>
+    <input type="checkbox" name="cores" id="white">
+
+    <!-- RADIO -->
+    <h3>Gênero</h3>
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="genero" id="masculino">
+   
+    <label for="feminino">Feminino</label>
+    <input type="radio" name="genero" id="feminino"> <br><br>
+
+    <h2>Select e textarea</h2>
+
+    <label for="opcoes">Opções:</label>
+    <select name="opcoes" id="opcoes">
+        <option value="" selected>Selecione uma opção</option>
+        <option value="1">Opção 1</option>
+        <option value="2">Opção 2</option>
+        <option value="3">Opção 3</option>
+        <option value="4">Opção 4</option>
+    </select> <br><br>
+
+    <h3>Textarea</h3>
+    <textarea name="textp" cols="40" rows="5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nostrum doloremque deleniti facilis dignissimos pariatur et nihil autem reprehenderit voluptatum eos dolorum laborum ipsam, accusamus at, nulla illo temporibus debitis.</textarea>
+
+    <h2>Button</h2>
+
+    <button>Enviar</button> <br>
+
+    <input type="button" value="Enviar" onclick="alert('Olá')">
 </body>
 </html>
