@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="formulario.html" method="get" enctype="multipart/form-data">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="text" placeholder="Sobrenome" required> <br>
+        <input type="password" name="senha" id="senha" placeholder="Senha" required>
+        <input type="text" placeholder="email@example.com" required><br><br>
+
+        <label>Data de Nascimento</label><br>
+        <select name="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <select name="mes">
+            <option value="Jan">Jan</option>
+            <option value="Fev">Fev</option>
+            <option value="Mar">Mar</option>
+            <option value="Abr">Abr</option>
+            <option value="Mai">Mai</option>
+        </select>
+
+        <select name="ano">
+            <option value="1997">1997</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+        </select> <br><br>
+
+        <label>Gênero:</label><br>
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+        <label for="outro">Outro</label>
+        <input type="radio" name="genero" id="outro" value="outro"> <br><br>
+
+        <input type="file"> <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
