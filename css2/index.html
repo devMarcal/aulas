@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS intermediário</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- Em ordem no efeito cascata: CSS Externo -> CSS Interno -> CSS Inline -->
+    <!-- <style>
+        .container-cascata {
+            background-color: khaki;
+        }
+    </style> -->
 </head>
 <body>
-    
+    <h1>CSS intermediário</h1>
+
+    <!-- Efeito Cascata -->
+    <!-- <div class="container-cascata" 
+        style="background-color: yellowgreen;">
+        <h2>Efeito Cascata</h2>
+    </div> -->
+
+    <h2>Especificidade</h2>
+    <div class="div-especificidade">
+        <h3>Container-especificidade</h3>
+        <p id="paragrafo-especif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ab repudiandae vitae eveniet labore, harum et eius culpa iusto, saepe, a quasi doloremque nihil! Laboriosam laborum temporibus libero officia odio?</p>
+    </div>
+<!-- Não usar CSS inline ou !important por ser o maior nível de especificidade e sendo capaz de poluir o código no futuro. -->
+
 </body>
 </html>
