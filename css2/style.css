@@ -5,11 +5,11 @@
 }
 .container-cascata {
     background-color: lightskyblue;
-} */
+} */ 
 
 /* ESPECIFICIDADE */ 
 
-p {
+/* p {
     background-color: aquamarine;
 }
 .div-especificidade p {
@@ -17,5 +17,42 @@ p {
 }
 #paragrafo-especif {
     background-color: dimgrey;
+} */
+
+/* ESTILOS DE TEXTO */
+
+.background-align {
+    padding: 20px;
+    background-color: #D1C4E9;
 }
+.align-left {
+text-align: left;
+}
+.align-right {
+text-align: right;
+}
+.align-center {
+text-align: center;
+}
+.com-justificado {
+    text-align: justify;
+    width: 400px;
+}
+.sem-justificado {
+    width: 400px;
+}
+
+/* TEXT-TRANSFORM */
+
+.maiusculo {
+    text-transform: uppercase;
+}
+.minusculo {
+    text-transform: lowercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* TEXT DECORATION */
 
