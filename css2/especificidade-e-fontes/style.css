@@ -1,0 +1,110 @@
+/* EFEITO CASCATA */
+
+/* .container-cascata {
+    background-color: darkseagreen;
+}
+.container-cascata {
+    background-color: lightskyblue;
+} */ 
+
+/* ESPECIFICIDADE */ 
+
+/* p {
+    background-color: aquamarine;
+}
+.div-especificidade p {
+    background-color: darkolivegreen;
+}
+#paragrafo-especif {
+    background-color: dimgrey;
+} */
+
+/* ESTILOS DE TEXTO */
+
+.background-align {
+    padding: 20px;
+    background-color: #D1C4E9;
+}
+.align-left {
+text-align: left;
+}
+.align-right {
+text-align: right;
+}
+.align-center {
+text-align: center;
+}
+.com-justificado {
+    text-align: justify;
+    width: 400px;
+}
+.sem-justificado {
+    width: 400px;
+}
+
+/* TEXT-TRANSFORM */
+
+.maiusculo {
+    text-transform: uppercase;
+}
+.minusculo {
+    text-transform: lowercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* TEXT DECORATION */
+
+.fundo {
+    background-color: lightslategray;
+    width: 400px;
+}
+.underline {
+    text-decoration: underline;
+}
+.linha-sobreposta {
+    text-decoration: line-through;
+}
+.sem-decoracao {
+    text-decoration: none;
+}
+.line-height {
+    line-height: 40px;
+}   
+.text-shadow {
+    text-shadow: 5px 5px 2px #808080;
+    width: 400px;
+}
+
+/* FONTES DE TEXTO */
+
+.fonte-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fonte-paragrafo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+.font-text {
+font-family: 'Fira Code', monospace;
+font-weight: 400;
+}
+
+/* FONTES CUSTOMIZADAS */
+
+@font-face {
+    font-family: 'Milky';
+    src: url(/css2/MilkyNice.otf),
+    url(/css2/MilkyNice.ttf);
+}
+.fonte-customizada {
+    font-family: 'Milky', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
