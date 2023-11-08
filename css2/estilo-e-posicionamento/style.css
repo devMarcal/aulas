@@ -46,3 +46,38 @@ ol li {
     background-color: cadetblue;
     padding: 10px;
 }
+
+/* ESTILIZAÇÃO DE BACKGROUND */
+
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+.bg {
+    background-color: lightgreen;
+    background-image: url('./images/cat.png');
+}
+.bg-image {
+    width: 513px;
+    height: 340px;
+}
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 540px;
+}
+.bg-cover {
+    background-size: cover;
+    height: 540px;
+}
+.bg-fixed {
+    background-attachment: fixed;
+    height: 540px;
+}
+.bg-position {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 540px;
+
+    background: lightgreen url('./images/cat.png') no-repeat center bottom;
+}
