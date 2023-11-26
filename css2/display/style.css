@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+.bloco li {
+    background: cadetblue;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.linha li {
+    display: inline;
+    background: cadetblue;
+}
+
+.linha-bloco li {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: cadetblue;
+}
+
+.none li {
+    dislay: none;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background: cadetblue;
+}
+
+/* Position Static, Relative e Absolute */
+
+.position {
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.static {
+    position: static;
+    background: #791d1d;
+}
+
+.relative {
+    position: relative;
+    left: 80px;
+    background-color: #79bb1e;
+}
+
+.absolute {
+    position: absolute;
+    left: 500px;
+    background: #d7c8c8;
+}
+
+.relative-absolute-pai {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: rgb(214, 212, 212);
+}
+
+.relative-absolute-filho {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 150px;
+    height: 150px;
+    background: #cc8d7d;
+}

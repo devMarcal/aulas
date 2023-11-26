@@ -12,6 +12,7 @@ a:active {
 a:hover {
     background-color: aquamarine;
     color: orange;
+    color: rgba(red, green, blue, 0.1);
 }
 
 /* Estilização de Listas */
