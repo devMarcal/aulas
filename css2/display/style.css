@@ -30,7 +30,7 @@ ul {
 }
 
 .none li {
-    dislay: none;
+    display: none;
     width: 150px;
     height: 150px;
     margin: 10px;

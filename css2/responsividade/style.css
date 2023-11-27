@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E1E2E1;
+}
+
+.cabecalho {
+    padding: 10px 5px;
+    background: #69f0ae;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+main {
+    background: white;
+    padding: 25px;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+main .info {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 16px;
+}
+
+.image img {
+    width: 100%;
+
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        background: lightseagreen;
+        text-align: center;
+    }
+    
+    .cabecalho nav {
+        float: none;
+    }
+
+    .cabecalho nav li {
+        display: block;
+    }
+}

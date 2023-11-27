@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+main {
+    height: 1500px;
+    padding-top: 67px;
+}
+
+header {
+    font-size: 24px;
+    position: fixed;
+    width: 100dvw;
+    padding: 20px;
+    background: lightseagreen;
+    top: 0;
+}
