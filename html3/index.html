@@ -26,7 +26,17 @@
 
     <h2>Tag Video</h2>
 
-    <video src="./videos/video.mp4" width="350" controls muted loop poster="./images/thumb.jpg"></video>
+    <video width="350" controls muted loop poster="./images/thumb.jpg">
+        <source src="videos/video.mp4" type="video/mp4">   
+        <source src="videos/video.webm" type="video/webm">
+        <p>Seu navegador não possui suporte para este tipo de vídeo</p>
+    </video>
+
+    <h2>Iframe</h2>
+
+    <iframe src="info.html" frameborder="1"></iframe>
+
+<iframe width="355" height="200" src="https://www.youtube.com/embed/BuEE25cTjy8?si=io-L7DXeZiIeolLh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     <h2>Picture</h2>
 
