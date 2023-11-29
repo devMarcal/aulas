@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Avançado</title>
+
+    <!-- Favicon -->
+<link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
 </head>
 <body>
+    <h1>CSS Avançado</h1>
     
+    <h2>Emojis e Caracteres</h2>
+
+    &#x000AE; &nbsp;&nbsp;&nbsp; &dollar; &#128517  &#128562 &#128151
+
+    <h2>Tag Audio</h2>
+
+    <audio controls preload="metadata">
+        <source src="audios/audio.mp3" type="audio/mpeg">
+        <source src="audios/audio.ogg" type="audio/ogg">
+        <source src="audios/audio.wav" type="audio/wav">
+        <p>Seu Navegador não suporta este tipo de audio</p>
+    </audio>
+
+    <h2>Tag Video</h2>
+
+    <video src="./videos/video.mp4" width="350" controls muted loop poster="./images/thumb.jpg"></video>
+
+    <h2>Picture</h2>
+
+    <picture>
+        <source srcset="images/desktop.jpg" media="(min-width: 768px)">
+        <source srcset="images/tablet.jpg" media="(min-width: 475px)">
+        <img src="./images/celular.jpg" alt="montanhas com lago">
+    </picture>
+
 </body>
 </html>
