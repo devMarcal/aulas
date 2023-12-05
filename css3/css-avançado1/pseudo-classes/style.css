@@ -1,0 +1,24 @@
+seletor:pseudo-classe {
+    propriedade: valor;
+}
+
+p:first-child {
+    color: red;
+}
+
+p:last-child {
+    color: blue;
+}
+
+p:not(.padrao) {
+    color: chocolate;
+}
+
+li:nth-child(n+2):nth-child(-n+6) {
+    color: darkorchid;
+}
+/* Com nth-last-child a propriedade é aplicada debaixo para cima */
+
+.only p:only-child {
+    color:darkturquoise
+}
