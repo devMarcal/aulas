@@ -6,7 +6,8 @@
 .flex-start .item,
 .flex-end .item,
 .center .item,
-.stretch .item{
+.stretch .item
+{
     flex: 1;
 }
 
