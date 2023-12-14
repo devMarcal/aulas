@@ -1,0 +1,31 @@
+/* seletor:pseudo-elemento {
+    propriedade: valor;
+} */
+
+p {
+    width:300px;
+}
+
+.paragrafo::first-letter {
+    background-color: blue ;
+}
+
+.paragrafo2::first-line {
+    width: 300px;
+    background-color: red;
+}
+
+li::marker {
+    color: brown;
+    font-size: 25px;
+}
+
+.titulo-before::before {
+    content: url(images/bitc.png);
+    margin-right: 5px;
+}
+
+.titulo-after::after {
+    content: url(images/bitc.png);
+    margin-left: 5px;
+}
