@@ -1,0 +1,22 @@
+.container div{
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* .container.direction {
+    display: flex;
+    flex-direction: row;
+}
+
+.container.wrap{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* Flex-flow é uma propriedade para definir direction e o wrap juntos */
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
